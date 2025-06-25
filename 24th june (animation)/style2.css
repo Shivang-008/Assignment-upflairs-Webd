@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: red;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.gear {
+    font-size: 100px; 
+    display: inline-block; 
+    animation: rotateGear 4s linear infinite; 
+}
+
+@keyframes rotateGear {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

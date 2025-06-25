@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 45px;
+}
+
+.card-box {
+  display: flex;
+  gap: 25px;
+}
+
+.section {
+  width: 250px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: white;
+}
+
+
+.logo{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.instagram {
+  background-color: #aa13b2;
+  color: white;
+  border: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.instagram button {
+  background-color: white;
+  color: #e1306c;
+}
