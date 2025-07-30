@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkyPeek Weather</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>☁️ SkyPeek</h1>
+      <p>Check weather by city</p>
+    </header>
+
+    <form id="search-form" class="search-box">
+      <input type="text" id="city-input" placeholder="City name" required />
+      <button type="submit">🔍</button>
+    </form>
+
+    <div id="weather-card" class="weather hidden">
+      <div class="weather-top">
+        <img id="weather-icon" alt="Icon"/>
+        <div>
+          <h2 id="city-name"></h2>
+          <p id="description"></p>
+        </div>
+      </div>
+      <div class="weather-info">
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+    </div>
+
+    <p id="error-msg" class="error hidden">🚫 City not found!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
